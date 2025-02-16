@@ -32,7 +32,8 @@ def deploy_firefox(
     """
     launches a firefox instance with parameters set by the input dictionary
     """
-    firefox_binary_path = get_firefox_binary_path()
+    # jn firefox_binary_path = get_firefox_binary_path()
+    firefox_binary_path = "/workspaces/OpenWPM/firefox-bin/firefox"
 
     root_dir = os.path.dirname(__file__)  # directory of this file
 
